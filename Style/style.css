@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    background-color: rgb(62, 62, 62);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+#formulario {
+    width: 25vw;
+    height: 50vh;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10%;
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.player{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #666; /* Texto gris oscuro */
+    opacity: 0.8; /* Opacidad del 80% */
+    
+}
+
+input {
+    background-color: #B0C4DE; /* Gris azulado */
+    color: #333; /* Texto oscuro */
+    padding: 12px 20px;
+    border: 2px solid #778899; /* Borde grisáceo */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input:hover {
+    background-color: #A9A9A9; /* Gris más oscuro al pasar el mouse */
+    border-color: #696969; /* Borde gris más oscuro */
+    transform: scale(1.05);
+}
+
+input:active {
+    background-color: #808080; /* Gris oscuro cuando se hace clic */
+    border-color: #545454; /* Borde gris oscuro */
+    transform: scale(0.95);
+}
+
+/* Estilo para el botón de disparar (rojo y naranja) */
+#disparar {
+    background-color: #FF6347; /* Rojo oscuro */
+    color: #FFD700; /* Amarillo dorado */
+    padding: 15px 25px;
+    border: 3px solid #FF4500; /* Borde rojo */
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#disparar:hover {
+    background-color: #FF4500; /* Rojo más intenso al pasar el mouse */
+    border-color: #FF6347; /* Borde rojo más intenso */
+    transform: scale(1.05);
+}
+
+#disparar:active {
+    background-color: #D32F2F; /* Rojo oscuro cuando se hace clic */
+    border-color: #B71C1C; /* Borde rojo oscuro */
+    transform: scale(0.95);
+}
+
+/* Estilo para el botón de retirarse (azul) */
+#retirarse {
+    background-color: #4169E1; /* Azul real */
+    color: #FFFFFF; /* Blanco */
+    padding: 15px 25px;
+    border: 3px solid #001F3F; /* Borde azul */
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#retirarse:hover {
+    background-color: #001F3F; /* Azul más oscuro al pasar el mouse */
+    border-color: #4169E1; /* Borde azul más oscuro */
+    transform: scale(1.05);
+}
+
+#retirarse:active {
+    background-color: #001529; /* Azul oscuro cuando se hace clic */
+    border-color: #000D14; /* Borde azul oscuro */
+    transform: scale(0.95);
+}
